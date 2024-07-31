@@ -38,3 +38,4 @@ tzdata==2023.4
 urllib3==2.2.1
 virtualenv==20.25.0
 streamlit
+ffmpeg-python
