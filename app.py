@@ -65,7 +65,3 @@ if st.session_state.clear_files and uploaded_files:
                 mime="text/plain",
                 key=text_file_name
             )
-
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 10000))
-    st.run(port=port, address="0.0.0.0")
